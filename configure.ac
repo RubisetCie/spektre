@@ -1,4 +1,4 @@
-AC_INIT([spek],[0.8.5])
+AC_INIT([spektral],[0.8.5])
 AC_CONFIG_SRCDIR([src/spek.cc])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([1.11.1 foreign no-dist-gzip dist-xz serial-tests])
@@ -9,7 +9,7 @@ AM_PROG_AR
 AC_PROG_CXX
 CXXFLAGS="$CXXFLAGS -std=gnu++11 -Wall -Wextra"
 AC_PROG_CXXCPP
-AC_PROG_LIBTOOL
+LT_INIT
 AC_PROG_RANLIB
 AC_PROG_INSTALL
 

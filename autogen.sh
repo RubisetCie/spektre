@@ -8,4 +8,4 @@ test -n "$srcdir" || srcdir=.
   touch config.rpath &&
   autoreconf -fiv
 ) || exit
-test -n "$NOCONFIGURE" || "$srcdir/configure" "$@"
+
